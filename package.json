@@ -1,0 +1,18 @@
+{
+  "name": "blunt-users",
+  "version": "0.0.1",
+  "description": "Blunt user db",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests/test.js"
+  },
+  "keywords": [
+    "leveldb",
+    "users"
+  ],
+  "author": "bluntworks",
+  "license": "MIT",
+  "dependencies": {
+    "validator": "~1.5.1"
+  }
+}
