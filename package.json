@@ -13,6 +13,8 @@
   "author": "bluntworks",
   "license": "MIT",
   "dependencies": {
-    "validator": "~1.5.1"
+    "validator": "~1.5.1",
+    "randpass": "~0.1.0",
+    "bcrypt": "~0.7.7"
   }
 }
