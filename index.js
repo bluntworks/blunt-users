@@ -1,15 +1,14 @@
 var log         = require('blunt-log')
-//var level       = require('level')
 var Users       = require('level-users')
 var tru         = require('through')
 var isEmail     = require('validator').validators.isEmail
 var bcrypt      = require('bcrypt')
 var randpass    = require('randpass')
+
 var sep = '\xff'
 var usr_prfx = sep + 'INDEX' + sep + 'username'
 
 var opts = { valueEncoding: 'json' }
-
 
 var Udb = function(db, o) {
   if(!(this instanceof Udb)) return new Udb(db, o)
@@ -136,9 +135,10 @@ module.exports = function(o) {
   return new Udb(db, o)
 }
 
-module.exports.routes = require('./routes.js')
+//module.exports.routes = require('./routes.js')
 
 var crypto = require('crypto')
+
 function hashit(u) {
   var sha = crypto.createHash('sha1')
   u.date = new Date().getTime()

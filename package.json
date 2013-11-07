@@ -15,6 +15,7 @@
   "dependencies": {
     "validator": "~1.5.1",
     "randpass": "~0.1.0",
-    "bcrypt": "~0.7.7"
+    "bcrypt": "~0.7.7",
+    "level-users": "0.0.1"
   }
 }
