@@ -1,4 +1,4 @@
-var log         = require('bitlog')
+var log         = require('blunt-log')
 //var level       = require('level')
 var Users       = require('level-users')
 var tru         = require('through')

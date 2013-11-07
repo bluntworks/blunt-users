@@ -1,4 +1,4 @@
-var log       = require('bitlog')
+var log       = require('blunt-log')
 var Users     = require('./index.js')
 var weave     = require('blunt-weave')
 var redirect  = require('blunt-redirect')
